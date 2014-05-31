@@ -1190,7 +1190,7 @@
 
 /* Define .init_array/.fini_array sections are available and working. */
 #ifndef USED_FOR_TARGET
-#define HAVE_INITFINI_ARRAY_SUPPORT 1
+/* #undef HAVE_INITFINI_ARRAY_SUPPORT */
 #endif
 
 
@@ -1882,7 +1882,7 @@
 
 /* Define if your system supports PT_GNU_EH_FRAME for static executable. */
 #ifndef USED_FOR_TARGET
-#define USE_EH_FRAME_HDR_FOR_STATIC 1
+/* #undef USE_EH_FRAME_HDR_FOR_STATIC */
 #endif
 
 
